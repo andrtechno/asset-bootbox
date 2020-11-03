@@ -14,7 +14,7 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "bower-asset/bootbox.js": "^5.*"
+        "bower-asset/bootbox": "^5.*"
     },
     "autoload": {
         "psr-4": {
