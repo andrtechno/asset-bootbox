@@ -12,9 +12,11 @@
             "homepage": "https://pixelion.com.ua"
         }
     ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "yiisoft/yii2": "*",
-        "bower-asset/bootbox": "^5.4"
+        "bower-asset/bootbox": "5.5.*"
     },
     "autoload": {
         "psr-4": {
