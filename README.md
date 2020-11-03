@@ -1,13 +1,13 @@
-Asset bootstrap notify
+Asset bootbox js
 ===========
 Asset for Yii2
 
-[![Latest Stable Version](https://poser.pugx.org/panix/asset-bootstrap-notify/v/stable)](https://packagist.org/packages/panix/asset-bootstrap-notify)
-[![Total Downloads](https://poser.pugx.org/panix/asset-bootstrap-notify/downloads)](https://packagist.org/packages/panix/asset-bootstrap-notify)
-[![Monthly Downloads](https://poser.pugx.org/panix/asset-bootstrap-notify/d/monthly)](https://packagist.org/packages/panix/asset-bootstrap-notify)
-[![Daily Downloads](https://poser.pugx.org/panix/asset-bootstrap-notify/d/daily)](https://packagist.org/packages/panix/asset-bootstrap-notify)
-[![Latest Unstable Version](https://poser.pugx.org/panix/asset-bootstrap-notify/v/unstable)](https://packagist.org/packages/panix/asset-bootstrap-notify)
-[![License](https://poser.pugx.org/panix/asset-bootstrap-notify/license)](https://packagist.org/packages/panix/asset-bootstrap-notify)
+[![Latest Stable Version](https://poser.pugx.org/panix/asset-bootbox/v/stable)](https://packagist.org/packages/panix/asset-bootbox)
+[![Total Downloads](https://poser.pugx.org/panix/asset-bootbox/downloads)](https://packagist.org/packages/panix/asset-bootbox)
+[![Monthly Downloads](https://poser.pugx.org/panix/asset-bootbox/d/monthly)](https://packagist.org/packages/panix/asset-bootbox)
+[![Daily Downloads](https://poser.pugx.org/panix/asset-bootbox/d/daily)](https://packagist.org/packages/panix/asset-bootbox)
+[![Latest Unstable Version](https://poser.pugx.org/panix/asset-bootbox/v/unstable)](https://packagist.org/packages/panix/asset-bootbox)
+[![License](https://poser.pugx.org/panix/asset-bootbox/license)](https://packagist.org/packages/panix/asset-bootbox)
 
 
 Installation
@@ -18,20 +18,20 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist panix/asset-bootstrap-notify "*"
+php composer.phar require --prefer-dist panix/asset-bootbox "*"
 ```
 
 or add
 
 ```
-"panix/asset-bootstrap-notify": "*"
+"panix/asset-asset-bootbox": "*"
 ```
 
 to the require section of your `composer.json` file.
 
 Add to your view
 ```
-\panix\asset\bootstrap\notify\Asset::register($this);
+\panix\asset\bootbox\Asset::register($this);
 
 $this->registerJs("
     $.notify({
@@ -46,4 +46,4 @@ $this->registerJs("
 
 ### links
 * [Pixelion](https://pixelion.com.ua)
-* [Plugin Author](http://bootstrap-growl.remabledesigns.com) and [Docs](http://bootstrap-growl.remabledesigns.com)
+* [Plugin bootboxjs](http://bootboxjs.com/) and [Docs](http://bootboxjs.com/documentation.html)
