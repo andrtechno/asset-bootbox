@@ -31,17 +31,8 @@ to the require section of your `composer.json` file.
 
 Add to your view
 ```
-\panix\asset\bootbox\Asset::register($this);
+\panix\asset\bootbox\BootBoxAsset::register($this);
 
-$this->registerJs("
-    $.notify({
-        // options
-        message: 'Hello World' 
-    },{
-        // settings
-        type: 'danger'
-    });
-");
 ```
 
 ### links
