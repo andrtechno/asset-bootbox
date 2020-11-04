@@ -16,7 +16,7 @@
     "prefer-stable": true,
     "require": {
         "yiisoft/yii2": "*",
-        "npm-asset/bootbox": "5.5.1"
+        "npm-asset/bootbox": "@dev"
     },
     "autoload": {
         "psr-4": {
